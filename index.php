@@ -102,7 +102,7 @@
 </div>
 <!-- TUTUP SECTION SAMBUTAN -->
 
-    <div class="container">
+    <div class="container ">
         <!-- SECTION STATISTIK -->
 
         <div class="row">
@@ -190,7 +190,7 @@
                     </div>
                 </div>
                 <div class="text-center my-4">
-                    <a class="btn btn-primary" href="galeri.html ">Intip Lainnya</a>
+                    <a class="btn btn-primary" href="galeri.php">Intip Lainnya</a>
                 </div>
             </div>
          </div>

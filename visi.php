@@ -25,7 +25,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="card" style="background-color: blue;">
+                <div class="card bg-primary">
                     <div class="card-body">
                         <h5 class="text-center">VISI</h5>
                         <p class="text-center">Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif, Adaptif dan Produktif berlandaskan Iman dan Takwa (CAKAP BERIMTAK)</p>
