@@ -53,16 +53,16 @@
          'galeri/g2.JPG',
          'galeri/g3.JPG',
          'galeri/g4.JPG',
-         'galeri/g1.JPG',
-         'galeri/g2.JPG',
-         'galeri/g3.JPG',
-         'galeri/g4.JPG' 
+         'galeri/g5.JPG',
+         'galeri/g6.JPG',
+         'galeri/g7.JPG',
+         'galeri/g8.JPG' 
        ];
        $i = 0;
     ?>
 
     <div class="container gallery-container">
-        <h2 class="gallery-title">Upacara Peringatan HUT RI Ke-80</h2>
+        <h2 class="gallery-title text-primary">Peringatan HUT RI Ke-80</h2>
         <div class="title-line"></div>
 
         <div class="row g-3">
@@ -91,7 +91,7 @@
     ?>
 
     <div class="container gallery-container">
-        <h2 class="gallery-title">Guru SMKN 4 Tasikmalaya</h2>
+        <h2 class="gallery-title text-primary">Guru SMKN 4 Tasikmalaya</h2>
         <div class="title-line"></div>
 
         <div class="row g-3">
@@ -115,20 +115,20 @@
          'galeri/j1.JPG',
          'galeri/j2.JPG'
        ];
-       $i = 0;
+       
     ?>
 
     <div class="container gallery-container">
-        <h2 class="gallery-title">Job Fair Tahun 2024</h2>
+        <h2 class="gallery-title text-primary">Job Fair Tahun 2024</h2>
         <div class="title-line"></div>
 
         <div class="row g-3">
-            <?php while ($i < count($galeri)) : ?>
+            <?php foreach ($galeri as $gambar) : ?>
             <div class="col-md-3 col-sm-6 gallery-item">
-                <img src="<?=$galeri[$i]?>" alt="Foto 1">
+                <img src="<?=$gambar?>" alt="Foto 1">
             </div>
-             <?php $i++; ?>
-           <?php endwhile;?>
+             
+           <?php endforeach;?>
         </div>
     </div>
 

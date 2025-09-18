@@ -19,14 +19,15 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="text-decoration-none">VISI & MISI</h3>
+                <h3 class="text-decoration-none text-center">VISI & <span style="color: #007bff;"> MISI</span></h3>
             </div>
         </div>
+        <br>
 
         <div class="row">
             <div class="col-lg-12">
                 <div class="card bg-primary">
-                    <div class="card-body">
+                    <div class="card-body text-white">
                         <h5 class="text-center">VISI</h5>
                         <p class="text-center">Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif, Adaptif dan Produktif berlandaskan Iman dan Takwa (CAKAP BERIMTAK)</p>
                     </div>
@@ -39,7 +40,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="border: 2px solid rgba(0,123,255,0.3); box-shadow: 0 4px 15px rgba(0,123,255,0.5); border-radius: 10px;">
                         <h5 class="text-center">MISI</h5>
                         <ol style="text-align: left;">
                         <li>Mempersiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.</li>

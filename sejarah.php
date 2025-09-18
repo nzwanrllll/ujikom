@@ -19,14 +19,15 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="text-decoration-none">Sejarah Sekolah</h3>
+                <h3 class="text-decoration-none text-center">Sejarah<span style="color: #007bff;"> Sekolah</span></h3>
             </div>
         </div>
+        <br>
 
         
         <div class="row">
             <div class="col-lg-12">
-                <div class="card">
+                <div class="card" style="border: 2px solid rgba(0,123,255,0.3); box-shadow: 0 4px 15px rgba(0,123,255,0.5); border-radius: 10px;">
                     <div class="card-body text-center">
                         <img src="galeri/sejarah.png" alt="" class="rounded-3" width="800" height="450">
                         <br><br>

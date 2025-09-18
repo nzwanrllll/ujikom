@@ -63,10 +63,10 @@
                             <h4 class="mt-4">Media Sosial</h4>
                             <hr class="border-light">
                             <div class="d-flex gap-3">
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-instagram"></i>
-                                <i class="bi bi-tiktok"></i>
-                                <i class="bi bi-youtube"></i>
+                                <a href="https://www.facebook.com/4smkn/"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/smkn4tsmofficial/?igsh=N3k1MTlyeXo4cW9q#"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc"><i class="bi bi-tiktok"></i></a>
+                                <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704"><i class="bi bi-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <a href="https://kemendikdasmen.go.id/">Kemdikbud</a><br>
                             <a href="#">Dapodiknasmen</a><br>
                             <a href="#">PSMK</a><br>
-                            <a href="#">Disdik Jabar</a>
+                            <a href="https://disdik.jabarprov.go.id/">Disdik Jabar</a>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@
 
     <hr class="border-light">
     <p class="text-center">© 2025 SMK Negeri 4 Tasikmalaya</p>
-    <p class="text-center">All rights reserved</p>
-    hr class="border-light"><
+    <p class="text-center">By Nazwa NA </p>
+    <hr class="border-light">
 
     <!-- TUTUP SECTION FOOTER -->
 </div>

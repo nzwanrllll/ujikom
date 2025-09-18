@@ -57,9 +57,9 @@
                         Profil
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
-                        <li><a class="dropdown-item" href="visi.php">Visi & Misi</a></li>
                         <li><a class="dropdown-item" href="identitas.php">Identitas Sekolah</a></li>
+                        <li><a class="dropdown-item" href="visi.php">Visi & Misi</a></li>
+                        <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
                     </ul>
                 </li>
 

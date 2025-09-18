@@ -38,7 +38,7 @@
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="text-decoration-none">Identitas Sekolah</h3>
+                <h3 class="text-decoration-none">Identitas<span style="color: #007bff;"> Sekolah</span></h3>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
                     <div class="card-body text-center">
                         <img src="galeri/logo.png" alt="Logo Sekolah" class="rounded-3" width="185">
                         <br><br>
-                        <div class="identity-card text-start">
+                        <div class="identity-card text-start" style="border: 2px solid rgba(0,123,255,0.3); box-shadow: 0 4px 15px rgba(0,123,255,0.5); border-radius: 10px;">
                             <p><span class="label">Nama Sekolah</span>: SMK Negeri 4 Kota Tasikmalaya</p>
                             <p><span class="label">NPSN</span>: 20276063</p>
                             <p><span class="label">Alamat</span>: Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu, Kota Tasikmalaya, Jawa Barat</p>
