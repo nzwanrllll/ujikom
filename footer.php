@@ -91,7 +91,7 @@
 
     <hr class="border-light">
     <p class="text-center">© 2025 SMK Negeri 4 Tasikmalaya</p>
-    <p class="text-center">By Nazwa NA </p>
+    <p class="text-center">All Right Reserved </p>
     <hr class="border-light">
 
     <!-- TUTUP SECTION FOOTER -->

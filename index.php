@@ -159,12 +159,14 @@
                 <h1>SMK Negeri 4 Tasikmalaya</h1>
                 <h2>Sekolah Pusat Keunggulan</h2>
             </div>
-        </div>
+        </div> 
     </section>
 
     <!-- SECTION SAMBUTAN -->
     <section>
         <div class="container">
+            <h2 class="text-primary"><b>Sambutan</b></h2>
+            <h3><b>Kepala Sekolah</b></h3>
             <div class="row align-items-center sambutan">
                 <div class="col-lg-4 text-center">
                     <img src="galeri/kepalasekolah.CDMQ7SQv.png" height="250px" class="img-fluid rounded shadow" alt="">
@@ -239,6 +241,8 @@
         </div>
     </section>
 
+    
+    
     <!-- SECTION GALERI -->
     <section>
         <div class="container">
@@ -270,6 +274,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- SECTION BERITA -->
     <section>
