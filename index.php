@@ -169,7 +169,7 @@
             <h3><b>Kepala Sekolah</b></h3>
             <div class="row align-items-center sambutan">
                 <div class="col-lg-4 text-center">
-                    <img src="galeri/kepalasekolah.CDMQ7SQv.png" height="250px" class="img-fluid rounded shadow" alt="">
+                    <img src="galeri/kepsek.jpeg" height="250px" class="img-fluid rounded shadow" alt="">
                 </div>
                 <div class="col-lg-8 mt-3 mt-lg-0">
                     <h5><b>Kurniawan S.Pd, M.Pd</b></h5>
