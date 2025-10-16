@@ -20,8 +20,8 @@
     <div class="container pt-5">
       <div class="row justify-content-left">
         <div class="col-md-4">
-          <h2 class="text-primary">Identitas</h2>
-          <h3>Sekolah</h3>
+          <h2 class="text-primary"><b>Identitas</b></h2>
+          <h3><b>Sekolah</b></h3>
         </div>
       </div>
     </div>

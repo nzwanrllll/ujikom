@@ -18,9 +18,10 @@
         <!-- VISI MISI -->
 
         <div class="row">
-            <div class="col-lg-12">
-                <h3 class="text-decoration-none text-center">VISI & <span style="color: #007bff;"> MISI</span></h3>
-            </div>
+        <div class="col-md-4">
+          <h2 class="text-primary"><b>Visi &</b></h2>
+          <h3><b>Misi</b></h3>
+        </div>
         </div>
         <br>
 

@@ -18,9 +18,10 @@
         <!-- SECTION SEJARAH -->
 
         <div class="row">
-            <div class="col-lg-12">
-                <h3 class="text-decoration-none text-center">Sejarah<span style="color: #007bff;"> Sekolah</span></h3>
-            </div>
+            <div class="col-md-4">
+          <h2 class="text-primary"><b>Sejarah</b></h2>
+          <h3><b>Sekolah</b></h3>
+        </div>
         </div>
         <br>
 
