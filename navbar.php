@@ -72,6 +72,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="berita.php">Berita</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="saya.php">Tentang Saya</a>
+                </li>
             </ul>
         </div>
     </div>

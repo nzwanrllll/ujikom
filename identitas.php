@@ -28,8 +28,8 @@
     <div class="container py-5">
       <div class="row justify-content-center">
         <img
-          src="galeri/logo.png"
-          style="width: 150px; height: 200px; margin-bottom: 5%"
+          src="galeri/lg.jpg"
+          style="width: 200px; height: 200px; margin-bottom: 5%"
           alt=""
         />
       </div>

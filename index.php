@@ -103,45 +103,99 @@
             color: #007bff;
         }
 
-        /* GALERI */
-        .galeri-card img {
-            border-radius: 10px;
-            transition: transform 0.4s ease, box-shadow 0.3s;
+        /*JURUSAN*/
+         .program-card {
+        background: #ffffff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid #e9ecef;
         }
 
-        .galeri-card img:hover {
-            transform: scale(1.05);
+        .program-card:hover {
+            transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
         }
 
+        .program-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .program-card h6 {
+            font-size: 0.9rem;
+            color: #212529;
+        }
+
+        @media (max-width: 992px) {
+            .program-card img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .program-card h6 {
+                font-size: 0.85rem;
+            }
+        }
+
+        /* GALERI */
+         .galeri-card {
+        cursor: pointer;
+            transition: transform 0.4s ease, box-shadow 0.3s ease;
+        }
+
+        .galeri-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 123, 255, 0.25);
+        }
+
+        .galeri-card img {
+            transition: opacity 0.4s ease;
+        }
+
+        .galeri-card .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 123, 255, 0.45);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .galeri-card:hover .overlay {
+            opacity: 1;
+        }
+
+        .galeri-card:hover img {
+            opacity: 0.85;
+        }
+
         /* BERITA */
-        .berita-card {
-            border: none;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .berita-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 28px rgba(0, 123, 255, 0.25);
-        }
-
         .berita-card img {
-            height: 250px;
-            object-fit: cover;
+        height: 240px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         }
 
-        .berita-card h3 {
-            font-size: 1.5rem;
-            font-weight: bold; 
-            color: #007bff;
+        .berita-card .card-body {
+        padding: 20px;
         }
 
-        /* SPACING ANTAR SECTION */
-        section {
-            padding: 60px 0;
+        .berita-card h5 {
+        transition: color 0.3s ease;
+        }
+
+        .berita-card:hover h5 {
+        color: #0056b3;
+        }
+
+        .berita-card p {
+        font-size: 0.95rem;
         }
     </style>
 
@@ -161,6 +215,8 @@
             </div>
         </div> 
     </section>
+
+    <br><br>
 
     <!-- SECTION SAMBUTAN -->
     <section>
@@ -189,7 +245,9 @@
         </div>
     </section>
 
-    <!-- SECTION STATISTIK (tetap) -->
+    <br>
+
+    <!-- SECTION STATISTIK -->
     <section>
         <div class="container">
             <div class="row text-center">
@@ -241,73 +299,151 @@
         </div>
     </section>
 
+
+   <!-- SECTION PROGRAM KEAHLIAN -->
+    <section style="background-color: #ffffff;">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 text-primary fw-bold">Program Keahlian</h2>
+            <div class="row justify-content-center gy-4 gx-4">
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="program-card text-center p-3 rounded shadow-sm">
+                        <img src="galeri/pplg.png" alt="PPLG">
+                        <h6 class="mt-3 fw-semibold">Pengembangan Perangkat Lunak dan Gim (PPLG)</h6>
+                    </div>
+                </div>
+                
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="program-card text-center p-3 rounded shadow-sm">
+                        <img src="galeri/tsm.png" alt="TBSM">
+                        <h6 class="mt-3 fw-semibold">Teknik dan Bisnis Sepeda Motor (TBSM)</h6>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="program-card text-center p-3 rounded shadow-sm">
+                        <img src="galeri/dkv.png" alt="DKV">
+                        <h6 class="mt-3 fw-semibold">Desain Komunikasi Visual (DKV)</h6>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="program-card text-center p-3 rounded shadow-sm">
+                        <img src="galeri/toi.png" alt="TOI">
+                        <h6 class="mt-3 fw-semibold">Teknik Otomasi Industri (TOI)</h6>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="program-card text-center p-3 rounded shadow-sm">
+                        <img src="galeri/tjkt.png" alt="TJKT">
+                        <h6 class="mt-3 fw-semibold">Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     
     <!-- SECTION GALERI -->
-    <section>
-        <div class="container">
-            <h2 class="text-center mb-4"><b>Galeri</b></h2>
-            <div class="row">
-                <div class="col-lg-3 col-6 mb-4">
-                    <div class="galeri-card">
-                        <img src="galeri/g1.JPG" alt="" class="w-100 h-100">
+    <section style="background-color: #f8f9fa;">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="text-primary fw-bold">Galeri</h2>
+                <div style="width: 80px; height: 4px; background-color: #007bff; margin: 10px auto; border-radius: 10px;"></div>
+                <p class="text-muted">Potret kegiatan di SMKN 4 Tasikmalaya</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="galeri-card position-relative overflow-hidden rounded shadow-sm">
+                        <img src="galeri/g1.JPG" alt="Galeri 1" class="w-100 rounded">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 mb-4">
-                    <div class="galeri-card">
-                        <img src="galeri/g2.JPG" alt="" class="w-100 h-100">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="galeri-card position-relative overflow-hidden rounded shadow-sm">
+                        <img src="galeri/g2.JPG" alt="Galeri 2" class="w-100 rounded">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 mb-4">
-                    <div class="galeri-card">
-                        <img src="galeri/g3.JPG" alt="" class="w-100 h-100">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="galeri-card position-relative overflow-hidden rounded shadow-sm">
+                        <img src="galeri/g3.JPG" alt="Galeri 3" class="w-100 rounded">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 mb-4">
-                    <div class="galeri-card">
-                        <img src="galeri/g4.JPG" alt="" class="w-100 h-100">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="galeri-card position-relative overflow-hidden rounded shadow-sm">
+                        <img src="galeri/g4.JPG" alt="Galeri 4" class="w-100 rounded">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center my-4">
-                <a class="btn btn-primary" href="galeri.php">Intip Lainnya</a>
+
+            <div class="text-center my-5">
+                <a class="btn btn-primary px-4 py-2" href="galeri.php">
+                    <i class="bi bi-images me-2"></i> Lihat Semua Galeri
+                </a>
             </div>
         </div>
     </section>
 
+   <!-- SECTION BERITA -->
+    <section style="background-color: #ffffff;">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+        <h2 class="text-primary fw-bold">Berita</h2>
+        <div style="width: 80px; height: 4px; background-color: #007bff; margin: 10px auto; border-radius: 10px;"></div>
+        <p class="text-muted">Informasi dan kegiatan terbaru dari SMKN 4 Tasikmalaya</p>
+        </div>
 
-    <!-- SECTION BERITA -->
-    <section>
-        <div class="container">
-            <h2 class="text-center mb-4"><b>Berita</b></h2>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="berita-card card">
-                        <img src="galeri/berita1.JPG" alt="" class="w-100">
-                        <div class="card-body">
-                            <h3>JOB FAIR</h3>
-                            <a class="btn btn-primary" href="https://radarpangandaran.com/gaya-hidup/smkn-4-tasikmalaya-gelar-job-fair-2024-dibutuhkan-200-pencari-kerja-ini-cara-daftarnya/">Baca
-                                Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="berita-card card">
-                        <img src="galeri/berita2.JPG" alt="" class="w-100">
-                        <div class="card-body">
-                            <h3>MBG</h3>
-                            <a class="btn btn-primary" href="https://www.antaranews.com/tag/mbg-di-sekolah">Baca
-                                Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-                <!-- Tombol di tengah bawah -->
-            <div class="text-center my-4">
-                <a class="btn btn-primary" href="berita.php">Berita Lainnya</a>
+        <div class="row g-4">
+        <!-- BERITA 1 -->
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100 berita-card">
+            <img src="galeri/berita1.JPG" class="card-img-top" alt="Berita 1">
+            <div class="card-body">
+                <h5 class="fw-bold text-primary mb-2">JOB FAIR</h5>
+                <p class="text-muted">SMKN 4 Tasikmalaya menggelar Job Fair 2024 yang menghadirkan puluhan perusahaan dengan ratusan lowongan kerja untuk para pencari kerja.</p>
+                <a href="https://radarpangandaran.com/gaya-hidup/smkn-4-tasikmalaya-gelar-job-fair-2024-dibutuhkan-200-pencari-kerja-ini-cara-daftarnya/" class="btn btn-outline-primary btn-sm">
+                Baca Selengkapnya <i class="bi bi-arrow-right-short"></i>
+                </a>
+            </div>
             </div>
         </div>
+
+        <!-- BERITA 2 -->
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100 berita-card">
+            <img src="galeri/berita2.JPG" class="card-img-top" alt="Berita 2">
+            <div class="card-body">
+                <h5 class="fw-bold text-primary mb-2">MBG</h5>
+                <p class="text-muted"> SMKN 4 Tasikmalaya melaksanakan program nasional <b>Makan Bergizi Gratis (MBG)</b> untuk mendukung kesehatan dan semangat belajar siswa.</p>
+                <a href="https://www.antaranews.com/tag/mbg-di-sekolah" class="btn btn-outline-primary btn-sm">
+                Baca Selengkapnya <i class="bi bi-arrow-right-short"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- TOMBOL LIHAT BERITA LAINNYA -->
+        <div class="text-center mt-5">
+        <a class="btn btn-primary px-4 py-2" href="berita.php">
+            <i class="bi bi-newspaper me-2"></i> Berita Lainnya
+        </a>
+        </div>
+    </div>
     </section>
+
 
     <?php include 'footer.php'; ?>
 
